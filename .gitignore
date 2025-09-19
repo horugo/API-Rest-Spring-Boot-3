@@ -81,9 +81,6 @@ nbdist/
 # Mac
 .DS_Store
 
-# Windows
-Thumbs.db
-
 # Spring Boot
 !src/main/resources/application.properties
 !src/main/resources/application.yml
@@ -118,7 +115,6 @@ checkstyle-result.xml
 .sonar/
 
 # Database
-*.db
 *.sqlite
 
 # Flyway
@@ -198,5 +194,3 @@ k8s/
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
