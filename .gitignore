@@ -81,12 +81,6 @@ nbdist/
 # Mac
 .DS_Store
 
-# Spring Boot
-!src/main/resources/application.properties
-!src/main/resources/application.yml
-src/main/resources/application-*.properties
-src/main/resources/application-*.yml
-
 # Application
 *.jar
 *.war
@@ -146,28 +140,6 @@ liquibase.properties
 # Application specific
 /config/application.properties
 /config/application.yml
-
-# Ignore all files in src/main/resources except application properties
-src/main/resources/**
-!src/main/resources/application.properties
-!src/main/resources/application.yml
-!src/main/resources/**/*.xml
-!src/main/resources/**/*.json
-!src/main/resources/**/*.txt
-!src/main/resources/**/*.csv
-!src/main/resources/**/*.sql
-!src/main/resources/static/
-!src/main/resources/templates/
-
-# Ignore test resources except specific files
-src/test/resources/**
-!src/test/resources/application-test.properties
-!src/test/resources/application-test.yml
-!src/test/resources/**/*.xml
-!src/test/resources/**/*.json
-!src/test/resources/**/*.txt
-!src/test/resources/**/*.csv
-!src/test/resources/**/*.sql
 
 # Docker
 Dockerfile
